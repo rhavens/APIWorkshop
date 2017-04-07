@@ -72,7 +72,7 @@ def check_data():
 # Let's fetch data
 def fetch_data():
     # Your URL
-    url_to_get = "http://api.wunderground.com/api/" + api_key + "/forecast/q/MA/Boston.json"
+    url_to_get = "http://api.wunderground.com/api/" + api_key + "/geolookup/conditions/q/MA/Boston.json"
     print url_to_get
     print 'Making a request'
     # The following line initiates a request from Flask to your chosen API
